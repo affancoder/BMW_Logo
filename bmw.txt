@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW</title>
+    <link rel="stylesheet" href="style.css" class="rel" />
+  </head>
+  <body>
+    <section>
+      <b>
+        <span class="bmw">B</span>
+        <span class="m">M</span>
+        <span class="w">W</span>
+      </b>
+    </section>
+    <section>
+      <div class="container">
+        <div class="box">
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+          <div class="box4"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+css-----------------
+
+
+.container {
+  margin: 0px auto;
+  height: 300px;
+  width: 300px;
+  border: 48px solid black;
+  border-radius: 50%;
+  margin-top: 50px;
+  display: flex;
+  box-shadow: 2px 2px 2px 4px lightslategrey;
+  z-index: 0;
+}
+.box1 {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(49, 166, 235);
+  border: 2px solid black;
+  border-radius: 100% 0 0;
+  margin-top: -3px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.box4 {
+  height: 148px;
+  width: 148px;
+  background-color: rgb(49, 166, 235);
+  border: 2px solid black;
+  border-radius: 0 0 100% 0;
+  margin-top: -2px;
+  margin-left: 150px;
+}
+.bmw {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 2.5rem;
+  color: #f4ebeb;
+  z-index: 1;
+  position: absolute;
+  margin-left: 628px;
+  margin-top: 2px;
+  box-sizing: border-box;
+  transform: rotate(-12deg);
+}
+
+.m {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 2.4rem;
+  color: #f4ebeb;
+  z-index: 1;
+  position: absolute;
+  margin-left: 658px;
+  margin-top: -1px;
+  box-sizing: border-box;
+  transform: rotate(0deg);
+}
+
+.w {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 2.4rem;
+  color: #f4ebeb;
+  z-index: 1;
+  position: absolute;
+  margin-left: 697px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  transform: rotate(16deg);
+}
+
+/* b span:nth-child(1) {
+  font-size: 3rem;
+  color: greenyellow;
+  margin-left: 610px;
+  transform:rotate(-45deg);
+  z-index: 100;
+}
+b span:nth-child(2){
+  transform: rotate(65deg);
+}
+b span:nth-child(3){
+  transform: rotate(60deg);  
+} */
