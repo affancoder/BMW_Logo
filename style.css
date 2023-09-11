@@ -67,6 +67,24 @@
   transform: rotate(16deg);
 }
 
+.h1 {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .text {
+    justify-content: center;
+    display: none;
+  }
+  .h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+  }
+}
+
 /* b span:nth-child(1) {
   font-size: 3rem;
   color: greenyellow;
